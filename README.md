@@ -8,8 +8,8 @@ Module 19 and Contact card app
 
 Update manifest
 
-Indexed db still error
+Indexed db still error (GET and PUT error or bug !!)
 
-service worker is on error
+service worker is on error 
 
-Install feature on working
+
