@@ -26,7 +26,8 @@ module.exports = {
         swDest: 'service-worker.js',
       }),
       new WebpackPwaManifest({
-
+       
+       
       })
       ],
 
