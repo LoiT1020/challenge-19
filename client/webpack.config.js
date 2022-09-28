@@ -26,6 +26,22 @@ module.exports = {
         swDest: 'service-worker.js',
       }),
       new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
+        name: "Just Another Text Editor",
+        short_name: "JATE",
+        description: "Edit that text!",
+        background_color: "#000000",
+        theme_color: "#31a9e1",
+        start_url: "/",
+        publicPath: "/",
+        icons: [
+          {
+            src: path.resolve("src/images/logo.png"),
+            sizes: [72, 96, 128, 144, 152, 192, 384, 512],
+            destination: path.join("assets", "icons"),
+          },
+        ],
        
        
       })
